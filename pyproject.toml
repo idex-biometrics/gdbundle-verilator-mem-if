@@ -1,0 +1,15 @@
+[project]
+name = "gdbundle_verilator_mem_if"
+description = "GDBundle plugin for the verilator_mem_if package."
+version = "0.0.1"
+license = {text = "MIT"}
+dependencies = [
+    "verilator_mem_if"
+]
+
+[build-system]
+requires = [
+    "setuptools>=61.0", 
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
