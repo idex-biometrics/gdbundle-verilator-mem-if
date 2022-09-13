@@ -1,11 +1,16 @@
 [project]
 name = "gdbundle_verilator_mem_if"
 description = "GDBundle plugin for the verilator_mem_if package."
-version = "0.0.1"
 license = {text = "MIT"}
 dependencies = [
-    "verilator_mem_if"
+    "gdbundle"
 ]
+readme = "README.md"
+requires-python = ">=3.6"
+version = "1.0.0"
+
+[project.urls]
+homepage = "https://github.com/idex-biometrics/gdbundle-verilator-mem-if"
 
 [build-system]
 requires = [
@@ -13,3 +18,4 @@ requires = [
     "wheel",
 ]
 build-backend = "setuptools.build_meta"
+
